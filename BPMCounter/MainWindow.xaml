@@ -1,0 +1,18 @@
+﻿<Window x:Class="BPMCounter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BPMCounter"
+        mc:Ignorable="d"
+        Title="BPM Counter" 
+        Height="180" Width="240"
+        KeyDown="Window_KeyDown">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+
+            <TextBlock Padding="5" Text="BPM:" HorizontalAlignment="Center" Margin="0 0 0 0" VerticalAlignment="Top" FontSize="24"/>
+            <TextBlock Padding="5" x:Name="BPM" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" FontSize="24"/>
+        </StackPanel>
+    </Grid>
+</Window>
